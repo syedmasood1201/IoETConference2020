@@ -51,6 +51,20 @@
         border-bottom: 3px solid #90caf9;
         background-color: none;
     }
+    
+    .timer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.8;
+        margin-top: 325px;
+    }
+    
+    .timer h4 {
+        color: #fff;
+        font-size: 30px;
+    }
     /* .collapsible {
         background-color: #ffffff;
         color: grey;
@@ -83,14 +97,14 @@
             <div class="container">
                 <a href="home.html" class="navbar-brand text-uppercase font-weight-bold">IoETConf</a>
                 <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
-          <i class="fa fa-bars"></i>
-        </button>
+                    <i class="fa fa-bars"></i>
+                </button>
 
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto" id="current">
                         <li class="nav-item active">
                             <a href="home.html" class="nav-link text-uppercase font-weight-bold">Home <span
-                  class="sr-only">(current)</span></a>
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="#about" class="nav-link text-uppercase font-weight-bold">About</a>
@@ -98,25 +112,22 @@
                         <li class="nav-item">
                             <a href="#events" class="nav-link text-uppercase font-weight-bold">Events</a>
                         </li>
-                        <!-- <li class="nav-item">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >Speakers</a
-                >
-              </li> -->
+
                         <li class="nav-item">
                             <a href="#faq" class="nav-link text-uppercase font-weight-bold">FAQ</a>
                         </li>
                         <li class="nav-item">
+                            <a href="speakers.html" class="nav-link text-uppercase font-weight-bold">Speakers</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="committee-page.html" class="nav-link text-uppercase font-weight-bold">Committee</a>
                         </li>
-                        <span>&nbsp &nbsp</span>
-
                         <li class="nav-item">
                             <a href="contact-us.html" class="nav-link text-uppercase font-weight-bold">Contact Us</a>
                         </li>
                         <span>&nbsp &nbsp </span>
                         <li class="nav-item">
-                            <a href="https://projectteam.typeform.com/to/GCHXRUwX" target="_blank" class="btn btn-info" role="button">Registrations</a>
+                            <a href="https://events2register.typeform.com/to/UUYhY4hI" target="_blank" class="btn btn-info" role="button">Register Now!</a>
                         </li>
                     </ul>
                 </div>
@@ -133,8 +144,17 @@
             <center>
                 <h3><small>Virtual Summit | 25th July, 2020</small></h3>
             </center>
+            <br>
+        </div>
+        <div class="timer">
+            <center>
+                <h4><small>
+                        <p id="demo"></p>
+                    </small></h4>
+            </center>
         </div>
     </div>
+
 
     <!-- about the event section  -->
 
@@ -169,11 +189,11 @@
                     <h1 class="display-4">IoET Conference 2020</h1>
                     <br />
                     <h2 class="font-weight-light">
-                        Are you planning on attending the Conference? <br /><br /> Attendees | <strong>61</strong>
+                        Are you planning on attending the Conference? <br /><br /> Attendees | <strong>130</strong>
                     </h2>
                     <p class="font-italic text-muted mb-4"></p>
                     <br />
-                    <a href="https://projectteam.typeform.com/to/GCHXRUwX" target="_blank" class="btn btn-info px-5 rounded-pill shadow-sm">Register here</a>
+                    <a href="https://events2register.typeform.com/to/UUYhY4hI" target="_blank" class="btn btn-info px-5 rounded-pill shadow-sm">Register here</a>
                 </div>
             </div>
             <div class="row align-items-center mb-5">
@@ -248,8 +268,8 @@
                             <div class="card-header" id="headingOne">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Q: Who can attend the conference?
-                  </button>
+                                        Q: Who can attend the conference?
+                                    </button>
                                 </h5>
                             </div>
 
@@ -264,8 +284,8 @@
                             <div class="card-header" id="headingTwo">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Q: On which online platform will the event happen?
-                  </button>
+                                        Q: On which online platform will the event happen?
+                                    </button>
                                 </h5>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -279,8 +299,8 @@
                             <div class="card-header" id="headingThree">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Q: Will I be getting a certificate of participation?
-                  </button>
+                                        Q: Will I be getting a certificate of participation?
+                                    </button>
                                 </h5>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -294,8 +314,8 @@
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Q: How will I present my project if I am selected?
-                  </button>
+                                        Q: How will I present my project if I am selected?
+                                    </button>
                                 </h5>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
@@ -309,10 +329,10 @@
                             <div class="card-header" id="headingFive">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Q: Can we submit more than one project for proposal, if
-                    yes can I present both of them or the best one will be
-                    chosen?
-                  </button>
+                                        Q: Can we submit more than one project for proposal, if
+                                        yes can I present both of them or the best one will be
+                                        chosen?
+                                    </button>
                                 </h5>
                             </div>
                             <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
@@ -326,8 +346,8 @@
                             <div class="card-header" id="headingSix">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                    Q: What is the time duration of the event?
-                  </button>
+                                        Q: What is the time duration of the event?
+                                    </button>
                                 </h5>
                             </div>
                             <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
@@ -366,7 +386,7 @@
                 </div>
 
                 <!-- <div class="col-6 col-md-3">
-               
+
               <div class="tptlogo"> <h6>Crafted By:</h6></a></div>
               <IMG STYLE="position:absolute; top: inherit; WIDTH:170px; HEIGHT:170px" SRC="assets/logo/logotpt.png">
               <a href="https://www.theprojectteam.in"> <img src="assets/logo/logotpt.png" alt="">
@@ -405,19 +425,18 @@
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <ul class="social-icons">
-                        <li><a class="dribbble" href="https://www.theprojectteam.in" target="_blank"><i class="fa fa-globe"></i></a>
+                        <li><a class="dribbble" href="https://www.theprojectteam.in" target="_blank"><i
+                                    class="fa fa-globe"></i></a>
                         </li>
                         <li><a class="facebook" href="https://www.facebook.com/theprojectteamsrm" target="_blank"><i
-                  class="fa fa-facebook"></i></a>
+                                    class="fa fa-facebook"></i></a>
                         </li>
                         <li><a class="twitter" href="https://github.com/TheProjectTeamSRM" target="_blank"><i
-                  class="fa fa-github"></i></a></li>
-                        <li><a class="linkedin" href="https://www.linkedin.com/company/theprojectteamsrm/" target="_blank"><i
-                  class="fa fa-linkedin"></i></a></li>
+                                    class="fa fa-github"></i></a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/company/theprojectteamsrm/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <li><a class="linkedin" href="https://www.instagram.com/the_project_team/" target="_blank"><i
-                  class="fa fa-instagram"></i></a></li>
-                        <li><a class="linkedin" href="https://www.youtube.com/channel/UCJL_Mms0MdJ2zaqzC2no8Lw" target="_blank"><i
-                  class="fa fa-youtube"></i></a></li>
+                                    class="fa fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="https://www.youtube.com/channel/UCJL_Mms0MdJ2zaqzC2no8Lw" target="_blank"><i class="fa fa-youtube"></i></a></li>
 
 
                     </ul>
@@ -426,7 +445,7 @@
 
     <!-- back to top button  -->
     <a id="back-to-top" href="#" class="btn btn-info btn-lg back-to-top" role="button"><i
-      class="fas fa-chevron-up"></i></a>
+            class="fas fa-chevron-up"></i></a>
 
     <!-- scripts for back to top button  -->
     <script>
@@ -465,41 +484,25 @@
     <script src="assets/nav-active.js"></script>
     <script src="assets/main.js"></script>
 
-    <!-- contact us script  -->
+    <!-- timer script  -->
 
-    <!-- <script>
-                // Get HTML head element
-                var head = document.getElementsByTagName('HEAD')[0];
-
-                // Create new link Element
-                var link = document.createElement('link');
-
-                // set the attributes for link element
-                link.rel = 'stylesheet';
-
-                link.type = 'text/css';
-
-                link.href = '';
-
-                // Append link element to HTML head
-                head.appendChild(link);
-            </script> -->
-    <!-- <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
-
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.display === "block") {
-            content.style.display = "none";
-          } else {
-            content.style.display = "block";
-          }
-        });
-      }
-    </script> -->
+    <script>
+        var countDownDate = new Date("July 25, 2020 9:00:00").getTime();
+        var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("demo").innerHTML = days + " Days " + hours + " Hours " +
+                minutes + " Minutes " + seconds + " Seconds ";
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158392547-1"></script>
     <script>

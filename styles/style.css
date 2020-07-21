@@ -168,6 +168,13 @@ html {
         color: #fff;
         font-size: 40px;
     }
+    .timer {
+        margin-top: 280px;
+    }
+    .timer h4 {
+        color: #fff;
+        font-size: 30px;
+    }
 }
 
 
@@ -181,7 +188,7 @@ html {
 /* faq style  */
 
 
-/* 
+/*
 .collapsible {
     background-color: #ffffff;
     color: grey;
